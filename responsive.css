@@ -1,0 +1,80 @@
+@media (max-width: 1000px) {
+}
+
+
+@media (max-width: 500px) {
+	.navbar {
+		background-color: white;
+	}
+
+	.navbar-brand {
+		color: rgb(253, 253, 253) !important;
+	}
+
+	.nav-link {
+		color: rgb(253, 253, 253) !important;
+	}
+	.texto-turma{
+		font-family: "Poppins", sans-serif;
+		padding-top: 50px;
+		font-size: 30px;
+	
+	}
+	#banner h2 {
+		font-family: "Poppins", sans-serif;
+		font-size: 25px;
+		color: white;
+		font-weight: 700;
+		text-align: center;
+		text-transform: uppercase;
+	}
+	#banner h3 {
+		font-size: 20px;
+		margin-top: 15px;
+	margin-bottom: 15px;
+	}
+	.texto-banner h4{
+		font-size: 18px;
+		width: 800px;
+		max-width: 100%;
+		color: white;
+		position: relative;
+		text-align: center;
+	}
+	#banner-laranja {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	#call-to-action {
+		padding: 35px;
+	}
+
+	#contato {
+		padding: 35px;
+	}
+
+	#servicos {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+
+	.imagem-portfolio {
+		height: 180px;
+	}
+	#servicos .servicos-itens{
+		flex-wrap: wrap
+		/*falar com o professor sobre esse bug!!! */
+	}
+	#call-to-action h4 {
+		font-size: 20px;
+	}
+	#servicos h3 {
+		font-size: 20px;	
+	}
+	#contato h4 {
+		font-size: 20px;
+	}
+	#banner-laranja h3 {
+		font-size: 20px;
+	}		
+}
